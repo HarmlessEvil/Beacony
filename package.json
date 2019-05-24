@@ -1,0 +1,35 @@
+{
+  "name": "stargate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "buffer": "^5.2.1",
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-native-ble-plx": "^1.0.3",
+    "react-native-chart-kit": "^2.6.1",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-svg": "^9.4.0",
+    "react-navigation": "^3.11.0",
+    "react-redux": "6.0.0",
+    "redux": "4.0.1",
+    "redux-saga": "0.16.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "eslint-config-equimper": "^2.2.2",
+    "flow-bin": "^0.86.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
